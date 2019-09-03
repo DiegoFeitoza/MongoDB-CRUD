@@ -1,2 +1,4 @@
 # mongodb
-Repositório criado para projetos em MondoDB
+Sistema CRUD com api em MongoDB, Express e NodeJS
+
+-By: Diego Feitoza
