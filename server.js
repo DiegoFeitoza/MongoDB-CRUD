@@ -11,7 +11,7 @@ var db,
     collection;
 
 //Conectando com o Mongo Db   
-MongoClient.connect("mongodb://localhost:27017",{ useNewUrlParser: true }, (err, client) => {  
+MongoClient.connect("mongodb+srv://deploy:todoUpload@cluster0-4eb0q.mongodb.net/test?retryWrites=true&w=majority",{ useNewUrlParser: true }, (err, client) => {  
     if(err) return console.log(err);
     db = client.db('diegodb');  
     collection = db.collection('data');
